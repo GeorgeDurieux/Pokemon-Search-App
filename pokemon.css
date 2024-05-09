@@ -1,0 +1,165 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#header-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+#search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  width: 20rem;
+}
+
+input, button {
+  font-size: 1.25rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+input {
+  background-color: rgb(200, 200, 200);
+  color: rgb(0, 75, 75);
+}
+
+input:focus {
+  border-color: rgb(0, 200, 200);
+}
+
+button {
+  background: linear-gradient(rgb(0, 100, 100), rgb(0, 255, 255), rgb(0, 100, 100));
+  color: rgb(0, 75, 75);
+  cursor: pointer;
+}
+
+button:active {
+  background: linear-gradient(rgb(0, 255, 255), rgb(0, 100, 100), rgb(0, 255, 255));
+  color: rgb(0, 255, 255);
+}
+
+button:hover {
+  border-color: rgb(0, 255, 255);
+}
+
+#application-body {
+  width: 30rem;
+  height: 50rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(175, 0, 0);
+  border: 3px solid black;
+  font-size: 1.5rem;
+  font-weight: 600;
+  box-shadow: 5px 5px 5px rgb(65, 65, 65);
+  border-radius: 5px;
+}
+
+#main-screen-div {
+  height: 20rem;
+  width: 20rem;
+  background-color: rgb(200, 200, 200);
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 5px rgb(65, 65, 65);
+  border-radius: 2px;
+  border: 2px solid black;
+}
+
+#info {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  font-size: 1.1rem;
+  margin: 0.5rem;
+}
+
+#identity {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+#size {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 3rem;
+}
+
+#pokemon-name, #pokemon-id, #weight, #height {
+  height: 1.2rem;
+}
+
+#sprite-container {
+  height: 12rem;
+  width: 12rem;
+  background: radial-gradient(rgb(100, 100, 100), rgb(35, 35, 35));
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+#sprite {
+  height: 9rem;
+  width: 9rem;
+}
+
+#types {
+  background: linear-gradient(rgb(100, 100, 100), rgb(200, 200, 200), rgb(100, 100, 100));
+  padding: 0.25rem;
+  border: 2px solid black;
+  min-width: 5rem;
+  min-height:1.75rem;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 0.75rem;
+}
+
+#statline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 75%;
+  margin-top: 4rem;
+}
+
+#stats-label {
+  width: 100%;
+  background: linear-gradient(rgb(100, 100, 100), rgb(200, 200, 200), rgb(100, 100, 100));
+  text-align: center;
+  border: 1px solid black;
+  padding: 0.2rem;
+}
+
+.stats-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  width: 100%;
+  background: linear-gradient(rgb(100, 100, 100), rgb(200, 200, 200), rgb(100, 100, 100));
+  padding: 0.2rem;
+  text-align: right;
+  border: 1px solid black;
+}
+
+.label {
+  text-align: left;
+}
+
