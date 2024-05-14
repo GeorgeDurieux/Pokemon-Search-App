@@ -2,7 +2,7 @@
 
 Welcome to the Pokemon Search App! This app allows you to search for information about Pokemon using their names or IDs. FreecodeCamp excercise.
 
-**Features**
+**FEATURES**
 
 - **Search Functionality**: Enter a Pokemon name or ID to retrieve detailed information about that Pokemon.<br />
 - **Display Pokemon Data**: View various details about the searched Pokemon, including its name, ID, types, stats, height, and weight.<br />
